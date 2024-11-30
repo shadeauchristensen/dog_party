@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  header {
+    background-color: #75e2e6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid #0909e7;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  .hero {
+    background-image: url('image/assets/park.jpg');
+    background-color: #00000080;
+    background-blend-mode: darken;
+    text-align: center;
+    padding: 50px 20px;
+    background-size: cover;
+    color: #ffffff;
+    border: 5px solid #e70909;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+  }
+  
+  .hero img {
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 5px solid #048eaa
+  }
+  
+  .hero form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #75e2e6;
+    border: none;
+    cursor: pointer;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1px 1px;
+    background-color: #f0f0f0;
+    border: 5px solid #0909e7
+  }
+  
+  .dog-info {
+    text-align: center;    
+    border: 5px solid #09e72e;
+  }
+  
+  .dog-info img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #037ca4
+  }
+  
+  .dog-info h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+   .dog-info h3 {  
+          /* added because it wouldn't add by itself */
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  .dog-info p {
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 5px;
+  }
+  
+  .dog-info button {
+    padding: 10px 150px;
+    background-color: #048eaa;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .footer {
+    background-color: #387798; /* Dark background */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center-align content */
+    padding: 10px; /* Adds space inside the footer */
+    border: 5px solid #e240c7;
+    margin: 0px 0px; /* removes space between footer and info border */
+    font-family: Arial, sans-serif; /* Font style same as head */
+  } 
+
+  .social-media-links {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center the icons */
+    gap: 20px; /* Adds space between icons */
+  }
+
+  
