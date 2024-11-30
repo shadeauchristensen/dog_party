@@ -25,7 +25,7 @@ form.addEventListener("submit", displayDogName);
     // Prevents the default behavior of the form which is refresh the page on form submission.
     var dogName = input.value;
     headerText.innerText = dogName;
-    headerText.style.color = "yellow"; // Changes the text color of the heading to red
-    headerText.style.fontSize = "30px"; // Changes the font size of the heading
+    headerText.style.color = "lightblue"; // Changes the text color of the heading to red
+    headerText.style.fontSize = "40px"; // Changes the font size of the heading
 }
 
